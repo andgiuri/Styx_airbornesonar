@@ -1,0 +1,101 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue May 13 18:55:32 2025
+| Host         : c716872c1152 running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_control_sets -verbose -file top_level_wrapper_control_sets_placed.rpt
+| Design       : top_level_wrapper
+| Device       : xc7z020
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    23 |
+|    Minimum number of control sets                        |    23 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    74 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    23 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     2 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              95 |           32 |
+| No           | No                    | Yes                    |              25 |            5 |
+| No           | Yes                   | No                     |              48 |           14 |
+| Yes          | No                    | No                     |              36 |            9 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              90 |           26 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|                                                                                         Clock Signal                                                                                         |                                                                       Enable Signal                                                                      |                                                                                   Set/Reset Signal                                                                                  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/MDIO_INTERFACE_1/BIT_COUNT            |                                                                                                                                                                                     |                1 |              4 |         4.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/tx_reset_async_reg_n_0                                                        |                1 |              5 |         5.00 |
+|  top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             |                                                                                                                                                          | top_level_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int                                                                                                                                     |                2 |              5 |         2.50 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/EXT_PHY_SPEED_REG_ID_REG              | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                2 |              5 |         2.50 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/MDIO_INTERFACE_1/ADDR_WR[4]_i_1_n_0   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                2 |              5 |         2.50 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/reset_in                                                                      |                1 |              5 |         5.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/tx_reset                                                                                                      |                1 |              5 |         5.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/EXT_PHY_ID_REG                        | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                1 |              5 |         5.00 |
+|  top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             | top_level_i/proc_sys_reset_0/U0/SEQ/seq_cnt_en                                                                                                           | top_level_i/proc_sys_reset_0/U0/SEQ/SEQ_COUNTER/clear                                                                                                                               |                1 |              6 |         6.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_out |                4 |             10 |         2.50 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/AN_COMPLETE_BIT_LOC_REG               | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                3 |             10 |         3.33 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          | top_level_i/proc_sys_reset_0/U0/peripheral_reset[0]                                                                                                                                 |                2 |             10 |         5.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/EXT_PHY_10M_SPEED_BIT_LOC_REG         | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                5 |             12 |         2.40 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |                                                                                                                                                          |                                                                                                                                                                                     |                6 |             12 |         2.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_resets/idelayctrl_reset_gen/reset_out                                                                                  |                4 |             15 |         3.75 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/MDC_RISING_REG1                       | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                4 |             15 |         3.75 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/EXT_PHY_SPEED_REG                     | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                5 |             16 |         3.20 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/EXT_PHY_STAT_REG                      | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                3 |             16 |         5.33 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_out                                             |                4 |             18 |         4.50 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |                                                                                                                                                          |                                                                                                                                                                                     |                7 |             25 |         3.57 |
+|  top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             |                                                                                                                                                          |                                                                                                                                                                                     |                8 |             27 |         3.38 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_MANAGEMENT/MDIO_INTERFACE_1/SHIFT_REG[3]_i_1_n_0 |                                                                                                                                                                                     |                8 |             32 |         4.00 |
+|  top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |                                                                                                                                                          |                                                                                                                                                                                     |               12 |             32 |         2.67 |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+
