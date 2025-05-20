@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param iopl.placeGlobalClockInstsInIOPlacer 0
-set_param iopl.placeRegionalClockInstsInIOPlacer 0
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
 

@@ -1,74 +1,74 @@
-!SESSION 2025-05-13 19:03:49.191 -----------------------------------------------
+!SESSION 2025-05-20 17:31:21.872 -----------------------------------------------
 eclipse.buildId=2022.2
 java.version=11.0.11
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY org.eclipse.osgi 4 0 2025-05-13 19:03:50.173
+!ENTRY org.eclipse.osgi 4 0 2025-05-20 17:31:22.871
 !MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
 
-!ENTRY org.eclipse.osgi 4 0 2025-05-13 19:03:50.251
+!ENTRY org.eclipse.osgi 4 0 2025-05-20 17:31:22.954
 !MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
 
-!ENTRY org.eclipse.ui 4 4 2025-05-13 19:04:30.893
+!ENTRY org.eclipse.ui 4 4 2025-05-20 17:31:36.746
 !MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:38.963
-!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4: Initializing s/w repositories
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.028
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:38.964
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.029
 !MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-16
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:38.965
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.030
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:38.972
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.593
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.595
 !MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-16
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.470
-!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4: Initializing s/w repositories
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.471
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.596
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.472
-!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-4: Initializing s/w repositories
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.597
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.472
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.598
 !MESSAGE XSCT Command: [setws /home/user/Desktop/Styx_airbornesonar/vitis_workspace], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.473
-!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /home/user/Xilinx/Vitis/2022.2/data]. Thread: Worker-4: Initializing s/w repositories
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.599
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /home/user/Xilinx/Vitis/2022.2/data]. Thread: Worker-0: Initializing s/w repositories
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:04:39.473
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:31:45.600
 !MESSAGE XSCT command with result: [setws /home/user/Desktop/Styx_airbornesonar/vitis_workspace], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 1 0 2025-05-13 19:07:42.246
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-20 17:31:53.464
 !MESSAGE Opening file dialog using preferences. Current path: /home/user/Xilinx/Vitis/2022.2/data/embeddedsw/lib/fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:50.900
-!MESSAGE XSCT Command: [::hsi::utils::openhw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:05.421
+!MESSAGE XSCT Command: [::hsi::utils::openhw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:52.520
-!MESSAGE XSCT command with result: [::hsi::utils::openhw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:07.118
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:52.528
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:07.126
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:52.532
-!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Result: [null, {"device": "7z020",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:07.130
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Result: [null, {"device": "7z020",
 "family": "zynq",
 "timestamp": "Tue May 13 18:44:33 2025",
 "vivado_version": "2022.2",
 "part": "xc7z020clg484-1",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:52.535
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:07.133
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:07:52.542
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Result: [null, {"gmii_to_rgmii_0": {"hier_name": "gmii_to_rgmii_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:07.140
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Result: [null, {"gmii_to_rgmii_0": {"hier_name": "gmii_to_rgmii_0",
 "type": "gmii_to_rgmii",
 "version": "4.1",
 "ip_type": "PERIPHERAL",
@@ -265,11 +265,11 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:09.611
-!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:26.020
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:09.623
-!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:26.032
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
 "version": "1.12",
 "desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
 "compilerflags": "",
@@ -301,10 +301,10 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.766
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:31.874
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.788
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:31.899
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"zynq_fsbl": {"userdefname": "Zynq FSBL",
 "description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
 "supp_proc": "ps7_cortexa9",
@@ -635,31 +635,31 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.899
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:31.997
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.931
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:32.029
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.934
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:32.031
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:12.955
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:32.054
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:14.314
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app lwip_echo_server -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:33.964
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app lwip_echo_server -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:14.353
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app lwip_echo_server -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:34.002
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa -os standalone -processor ps7_cortexa9_0 -app lwip_echo_server -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:19.391
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:36.727
 !MESSAGE XSCT Command: [platform create -name {styx_lwip_test} -hw {/home/user/Desktop/Styx_airbornesonar/styx_lwip_test.xsa} -out {/home/user/Desktop/Styx_airbornesonar/vitis_workspace};platform write], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:25.428
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:42.940
 !MESSAGE XSCT command with result: [platform create -name {styx_lwip_test} -hw {/home/user/Desktop/Styx_airbornesonar/styx_lwip_test.xsa} -out {/home/user/Desktop/Styx_airbornesonar/vitis_workspace};platform write], Result: [null, Successfully saved  the platform at "/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/platform.spr"]. Thread: ModalContext
 
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-05-13 19:08:25.505
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-05-20 17:32:42.995
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -773,52 +773,52 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:25.640
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:43.207
 !MESSAGE XSCT Command: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {lwip_echo_server}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.847
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.429
 !MESSAGE XSCT command with result: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {lwip_echo_server}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.851
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.434
 !MESSAGE XSCT Command: [platform write], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.874
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.459
 !MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/platform.spr"]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.893
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.476
 !MESSAGE XSCT Command: [platform active {styx_lwip_test}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.894
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.478
 !MESSAGE XSCT command with result: [platform active {styx_lwip_test}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.896
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.479
 !MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.898
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.480
 !MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.900
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.481
 !MESSAGE XSCT Command: [domain active {standalone_ps7_cortexa9_0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.901
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.482
 !MESSAGE XSCT command with result: [domain active {standalone_ps7_cortexa9_0}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.901
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.483
 !MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:26.948
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:44.526
 !MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "/home/user/Desktop/Styx_airbornesonar/vitis_workspace"]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:27.874
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:45.431
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.409
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:46.972
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.410
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:46.973
 !MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.415
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:46.978
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, {"gmii_to_rgmii_0": {"hier_name": "gmii_to_rgmii_0",
 "type": "gmii_to_rgmii",
 "version": "4.1",
@@ -1016,25 +1016,25 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.438
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:47.003
 !MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss ], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.442
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:47.007
 !MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss ], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.443
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:47.008
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:29.445
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:47.010
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "8.0",
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.945
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.507
 !MESSAGE XSCT Command: [hsi::utils::get_supported_os -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.953
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.514
 !MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
 "version": "1.12",
 "desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
@@ -1067,23 +1067,23 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.954
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.516
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.956
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.517
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, lwip211]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.956
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.518
 !MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.958
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.521
 !MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, {"lwip211": "1.8",
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.958
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.522
 !MESSAGE XSCT Command: [hsi::utils::get_all_libs -json], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.965
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.528
 !MESSAGE XSCT command with result: [hsi::utils::get_all_libs -json], Result: [null, {"libmetal_v2_4": {"name": "libmetal",
 "version": "2.4",
 "desc": "Libmetal Library",
@@ -1257,16 +1257,16 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.969
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.530
 !MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa ps7_cortexa9_0], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.971
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.531
 !MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_xadc_0]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.971
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.531
 !MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.974
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.534
 !MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
 "ver": "3.1",
 },
@@ -1365,10 +1365,10 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:30.975
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.535
 !MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.034
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.603
 !MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, {"gmii_to_rgmii_0": {"version": "4.1",
 "driver_info": {"generic": {"name": "generic",
 "version": "3.0 3.1",
@@ -1734,40 +1734,40 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.039
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.610
 !MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.041
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.613
 !MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, lwip211]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.155
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.721
 !MESSAGE XSCT Command: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.157
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.723
 !MESSAGE XSCT command with result: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.157
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.723
 !MESSAGE XSCT Command: [::hsi::utils::opensw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.160
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.724
 !MESSAGE XSCT command with result: [::hsi::utils::opensw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.165
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.726
 !MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa -sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss -app lwip_echo_server -processor ps7_cortexa9_0 -os standalone -dir /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/src], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.226
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:48.790
 !MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa -sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss -app lwip_echo_server -processor ps7_cortexa9_0 -os standalone -dir /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/src], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.467
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:49.106
 !MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/_ide/bitstream}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.522
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:49.159
 !MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/_ide/bitstream}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.525
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:49.161
 !MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.527
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:49.164
 !MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, {"device": "7z020",
 "family": "zynq",
 "timestamp": "Tue May 13 18:44:33 2025",
@@ -1775,388 +1775,32 @@ java.lang.NullPointerException
 "part": "xc7z020clg484-1",
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:31.533
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:49.167
 !MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/_ide/psinit} -quiet], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:35.535
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:52.638
 !MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:36.187
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:53.127
 !MESSAGE XSCT Command: [::hsi::utils::closesw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:36.190
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:53.129
 !MESSAGE XSCT command with result: [::hsi::utils::closesw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/lwip_echo/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 1 0 2025-05-13 19:08:36.260
+!ENTRY com.xilinx.sdk.utils 1 0 2025-05-20 17:32:53.188
 !MESSAGE Generating MD5 hash for file: /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss ...
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:37.243
-!MESSAGE XSCT Command: [::hsi::utils::closehw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:53.929
+!MESSAGE XSCT Command: [::hsi::utils::closehw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:08:37.265
-!MESSAGE XSCT command with result: [::hsi::utils::closehw /tmp/hwspec_styx_lwip_test499311683591079844/styx_lwip_test.xsa], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-20 17:32:53.947
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /tmp/hwspec_styx_lwip_test15174449217247773927/styx_lwip_test.xsa], Result: [null, ]. Thread: main
 
-!ENTRY org.eclipse.cdt.core 1 0 2025-05-13 19:08:50.117
-!MESSAGE Indexed 'styx_lwip_test' (588 sources, 608 headers) in 12 sec: 23,129 declarations; 130,035 references; 281 unresolved inclusions; 93 syntax errors; 1,196 unresolved names (0.77%)
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-20 17:33:06.763
+!MESSAGE Indexed 'styx_lwip_test' (588 sources, 608 headers) in 12.1 sec: 23,129 declarations; 130,035 references; 281 unresolved inclusions; 93 syntax errors; 1,196 unresolved names (0.77%)
 
-!ENTRY org.eclipse.cdt.core 1 0 2025-05-13 19:08:50.128
-!MESSAGE Indexed 'lwip_echo_system' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-20 17:33:06.780
+!MESSAGE Indexed 'lwip_echo_system' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 
-!ENTRY org.eclipse.cdt.core 1 0 2025-05-13 19:08:51.094
-!MESSAGE Indexed 'lwip_echo' (11 sources, 114 headers) in 0.958 sec: 3,405 declarations; 5,795 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:45.065
-!MESSAGE XSCT Command: [::hsi::utils::closehw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:45.103
-!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, ]. Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:45.104
-!MESSAGE XSCT Command: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.023
-!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa], Result: [null, ]. Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.026
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.033
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.034
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.037
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/hw/styx_lwip_test.xsa /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
-"osname": "standalone",
-"osver": "8.0",
-}]. Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 1 0 2025-05-13 19:37:47.038
-!MESSAGE Generating MD5 hash for file: /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss ...
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.042
-!MESSAGE XSCT Command: [::hsi::utils::closesw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-34: Build Project
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-05-13 19:37:47.045
-!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/sw/styx_lwip_test/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-34: Build Project
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 20:41:15.808
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 20:45:49.965
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 21:00:42.876
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 21:59:00.087
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 22:08:36.352
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 22:18:04.547
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 22:27:46.538
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 23:02:05.732
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 23:06:51.136
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 23:36:31.292
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-13 23:50:51.665
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:05:48.486
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:11:52.601
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:18:46.106
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:22:04.408
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:32:02.586
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:40:39.066
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 00:46:21.732
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:04:51.784
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:09:33.403
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:17:08.112
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:34:31.621
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:38:12.815
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:48:24.579
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 01:57:55.929
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:21:20.549
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:25:08.004
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:32:30.486
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:40:10.479
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:49:21.254
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 02:51:36.996
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-!ENTRY org.eclipse.tcf 4 0 2025-05-14 03:19:08.076
-!MESSAGE Invalid peerAdded event
-!STACK 0
-java.lang.Error
-	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
-	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
-	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-20 17:33:07.906
+!MESSAGE Indexed 'lwip_echo' (11 sources, 114 headers) in 1.12 sec: 3,405 declarations; 5,795 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)

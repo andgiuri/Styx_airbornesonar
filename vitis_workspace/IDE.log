@@ -1,17 +1,16 @@
-19:04:33 DEBUG : Logs will be stored at '/home/user/Desktop/Styx_airbornesonar/vitis_workspace/IDE.log'.
-19:04:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/user/Desktop/Styx_airbornesonar/vitis_workspace/temp_xsdb_launch_script.tcl
-19:04:35 INFO  : Registering command handlers for Vitis TCF services
-19:04:36 INFO  : Platform repository initialization has completed.
-19:04:38 INFO  : XSCT server has started successfully.
-19:04:38 INFO  : plnx-install-location is set to ''
-19:04:39 INFO  : Successfully done setting XSCT server connection channel  
-19:04:39 INFO  : Successfully done query RDI_DATADIR 
-19:04:39 INFO  : Successfully done setting workspace for the tool. 
-19:08:26 INFO  : Result from executing command 'getProjects': styx_lwip_test
-19:08:26 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
-19:08:26 WARN  : An unexpected exception occurred in the module 'platform project logging'
-19:08:27 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
-19:08:36 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
-19:37:41 INFO  : Result from executing command 'getProjects': styx_lwip_test
-19:37:41 INFO  : Result from executing command 'getPlatforms': styx_lwip_test|/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/styx_lwip_test.xpfm;xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
-19:37:45 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:31:38 DEBUG : Logs will be stored at '/home/user/Desktop/Styx_airbornesonar/vitis_workspace/IDE.log'.
+17:31:41 INFO  : Launching XSCT server: xsct -n  -interactive /home/user/Desktop/Styx_airbornesonar/vitis_workspace/temp_xsdb_launch_script.tcl
+17:31:42 INFO  : Registering command handlers for Vitis TCF services
+17:31:42 INFO  : Platform repository initialization has completed.
+17:31:45 INFO  : XSCT server has started successfully.
+17:31:45 INFO  : plnx-install-location is set to ''
+17:31:45 INFO  : Successfully done setting XSCT server connection channel  
+17:31:45 INFO  : Successfully done query RDI_DATADIR 
+17:31:45 INFO  : Successfully done setting workspace for the tool. 
+17:32:44 INFO  : Result from executing command 'getProjects': styx_lwip_test
+17:32:44 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:32:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:32:44 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
+17:32:53 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
+17:36:24 INFO  : Result from executing command 'getProjects': styx_lwip_test
+17:36:24 INFO  : Result from executing command 'getPlatforms': styx_lwip_test|/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/styx_lwip_test.xpfm;xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm

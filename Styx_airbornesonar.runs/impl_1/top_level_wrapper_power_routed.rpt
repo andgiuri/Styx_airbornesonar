@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-| Date             : Tue May 13 18:55:55 2025
-| Host             : c716872c1152 running 64-bit Ubuntu 22.04.5 LTS
+| Date             : Tue May 20 17:24:49 2025
+| Host             : 505c0296264a running 64-bit Ubuntu 22.04.5 LTS
 | Command          : report_power -file top_level_wrapper_power_routed.rpt -pb top_level_wrapper_power_summary_routed.pb -rpx top_level_wrapper_power_routed.rpx
 | Design           : top_level_wrapper
 | Device           : xc7z020clg484-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.550        |
+| Total On-Chip Power (W)  | 1.570        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.412        |
-| Device Static (W)        | 0.138        |
+| Dynamic (W)              | 1.430        |
+| Device Static (W)        | 0.140        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 67.1         |
-| Junction Temperature (C) | 42.9         |
+| Max Ambient (C)          | 66.9         |
+| Junction Temperature (C) | 43.1         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -62,10 +62,10 @@ Table of Contents
 |   LUT as Shift Register |     0.000 |        1 |     17400 |           <0.01 |
 | Signals                 |     0.003 |      431 |       --- |             --- |
 | MMCM                    |     0.107 |        1 |         4 |           25.00 |
-| I/O                     |     0.015 |       15 |       200 |            7.50 |
+| I/O                     |     0.034 |       15 |       200 |            7.50 |
 | PS7                     |     1.280 |        1 |       --- |             --- |
-| Static Power            |     0.138 |          |           |                 |
-| Total                   |     1.550 |          |           |                 |
+| Static Power            |     0.140 |          |           |                 |
+| Total                   |     1.570 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,10 +76,10 @@ Table of Contents
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Vccint    |       1.000 |     0.025 |       0.011 |      0.014 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.077 |       0.063 |      0.015 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.078 |       0.063 |      0.015 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.009 |       0.008 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vcco18    |       1.800 |     0.005 |       0.004 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -88,7 +88,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.694 |       0.666 |      0.029 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.695 |       0.666 |      0.029 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.356 |       0.354 |      0.002 |       NA    | Unspecified | NA         |
@@ -157,10 +157,11 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| top_level_wrapper        |     1.411 |
-|   top_level_i            |     1.411 |
-|     gmii_to_rgmii_0      |     0.128 |
-|       U0                 |     0.128 |
+| top_level_wrapper        |     1.430 |
+|   MDIO_PHY_0_mdio_iobuf  |     0.001 |
+|   top_level_i            |     1.427 |
+|     gmii_to_rgmii_0      |     0.144 |
+|       U0                 |     0.144 |
 |     processing_system7_0 |     1.282 |
 |       inst               |     1.282 |
 +--------------------------+-----------+
