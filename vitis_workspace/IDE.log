@@ -1,0 +1,27 @@
+16:46:50 DEBUG : Logs will be stored at '/home/user/Desktop/Styx_airbornesonar/vitis_workspace/IDE.log'.
+16:46:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/user/Desktop/Styx_airbornesonar/vitis_workspace/temp_xsdb_launch_script.tcl
+16:46:53 INFO  : Registering command handlers for Vitis TCF services
+16:46:54 INFO  : Platform repository initialization has completed.
+16:46:56 INFO  : XSCT server has started successfully.
+16:46:57 INFO  : Successfully done setting XSCT server connection channel  
+16:46:57 INFO  : plnx-install-location is set to ''
+16:46:57 INFO  : Successfully done setting workspace for the tool. 
+16:46:57 INFO  : Successfully done query RDI_DATADIR 
+16:47:47 INFO  : Result from executing command 'getProjects': styx_lwip_test
+16:47:47 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:47:47 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:47:48 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
+16:47:56 INFO  : Platform 'styx_lwip_test' is added to custom repositories.
+16:50:22 INFO  : Result from executing command 'getProjects': styx_lwip_test
+16:50:22 INFO  : Result from executing command 'getPlatforms': styx_lwip_test|/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/styx_lwip_test.xpfm;xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:50:25 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+16:50:41 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:08:28 INFO  : Result from executing command 'getProjects': styx_lwip_test
+17:08:28 INFO  : Result from executing command 'getPlatforms': styx_lwip_test|/home/user/Desktop/Styx_airbornesonar/vitis_workspace/styx_lwip_test/export/styx_lwip_test/styx_lwip_test.xpfm;xilinx_zcu102_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/user/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:08:31 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:09:01 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:09:04 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:09:11 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
+17:09:24 INFO  : Build configuration of 'lwip_echo_system' is updated to 'Release'
+17:09:24 INFO  : Build configuration of system project is automatically updated to 'Release'.
+17:09:24 INFO  : Checking for BSP changes to sync application flags for project 'lwip_echo'...
