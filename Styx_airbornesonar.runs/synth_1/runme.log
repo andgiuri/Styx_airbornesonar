@@ -24,19 +24,19 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1058
+INFO: [Synth 8-7075] Helper process launched with PID 1288
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/user/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2718.590 ; gain = 378.945 ; free physical = 12130 ; free virtual = 17560
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1757.595; parent = 1464.314; children = 293.280
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5013.066; parent = 2718.625; children = 2294.441
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2716.805 ; gain = 377.000 ; free physical = 11463 ; free virtual = 16851
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1742.030; parent = 1461.474; children = 280.557
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5067.812; parent = 2719.809; children = 2348.004
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top_level_wrapper' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/hdl/top_level_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/home/user/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [/home/user/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6157] synthesizing module 'top_level' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:12]
-INFO: [Synth 8-6157] synthesizing module 'top_level_gmii_to_rgmii_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_gmii_to_rgmii_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'top_level_gmii_to_rgmii_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_gmii_to_rgmii_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'top_level_gmii_to_rgmii_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_gmii_to_rgmii_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'top_level_gmii_to_rgmii_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_gmii_to_rgmii_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'ref_clk_out' of module 'top_level_gmii_to_rgmii_0_0' is unconnected for instance 'gmii_to_rgmii_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
 WARNING: [Synth 8-7071] port 'mmcm_locked_out' of module 'top_level_gmii_to_rgmii_0_0' is unconnected for instance 'gmii_to_rgmii_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
 WARNING: [Synth 8-7071] port 'gmii_clk_125m_out' of module 'top_level_gmii_to_rgmii_0_0' is unconnected for instance 'gmii_to_rgmii_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
@@ -47,39 +47,39 @@ WARNING: [Synth 8-7071] port 'link_status' of module 'top_level_gmii_to_rgmii_0_
 WARNING: [Synth 8-7071] port 'clock_speed' of module 'top_level_gmii_to_rgmii_0_0' is unconnected for instance 'gmii_to_rgmii_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
 WARNING: [Synth 8-7071] port 'duplex_status' of module 'top_level_gmii_to_rgmii_0_0' is unconnected for instance 'gmii_to_rgmii_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
 WARNING: [Synth 8-7023] instance 'gmii_to_rgmii_0' of module 'top_level_gmii_to_rgmii_0_0' has 36 connections declared, but only 27 given [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:142]
-INFO: [Synth 8-6157] synthesizing module 'top_level_proc_sys_reset_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_proc_sys_reset_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'top_level_proc_sys_reset_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_proc_sys_reset_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'top_level_proc_sys_reset_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_proc_sys_reset_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'top_level_proc_sys_reset_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_proc_sys_reset_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'top_level_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:170]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'top_level_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:170]
 WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'top_level_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:170]
 WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'top_level_proc_sys_reset_0_0' has 10 connections declared, but only 7 given [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:170]
-INFO: [Synth 8-6157] synthesizing module 'top_level_processing_system7_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_processing_system7_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'top_level_processing_system7_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'top_level_processing_system7_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'top_level_processing_system7_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_processing_system7_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'UART0_TX' of module 'top_level_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:178]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'top_level_processing_system7_0_0' has 41 connections declared, but only 40 given [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:178]
-INFO: [Synth 8-6157] synthesizing module 'top_level_util_reduced_logic_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_util_reduced_logic_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'top_level_util_reduced_logic_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1031-505c0296264a/realtime/top_level_util_reduced_logic_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'top_level_util_reduced_logic_0_0' [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_util_reduced_logic_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'top_level_util_reduced_logic_0_0' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/.Xil/Vivado-1261-fb39c16b5db7/realtime/top_level_util_reduced_logic_0_0_stub.v:5]
 INFO: [Synth 8-6155] done synthesizing module 'top_level' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/synth/top_level.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'top_level_wrapper' (0#1) [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.gen/sources_1/bd/top_level/hdl/top_level_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2795.727 ; gain = 456.082 ; free physical = 11618 ; free virtual = 17264
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1816.324; parent = 1464.314; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5274.312; parent = 2795.727; children = 2478.586
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2795.902 ; gain = 456.098 ; free physical = 10868 ; free virtual = 16445
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1813.609; parent = 1461.474; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5274.441; parent = 2795.902; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2811.242 ; gain = 471.598 ; free physical = 11610 ; free virtual = 17256
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1816.324; parent = 1464.314; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5289.828; parent = 2811.242; children = 2478.586
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2811.402 ; gain = 471.598 ; free physical = 10864 ; free virtual = 16441
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1813.609; parent = 1461.474; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5289.941; parent = 2811.402; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2811.242 ; gain = 471.598 ; free physical = 11610 ; free virtual = 17256
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1816.324; parent = 1464.314; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5289.828; parent = 2811.242; children = 2478.586
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2811.402 ; gain = 471.598 ; free physical = 10864 ; free virtual = 16441
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1813.609; parent = 1461.474; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5289.941; parent = 2811.402; children = 2478.539
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2818.250 ; gain = 0.051 ; free physical = 11610 ; free virtual = 17256
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2818.402 ; gain = 0.051 ; free physical = 10860 ; free virtual = 16438
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -110,11 +110,6 @@ WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {name =~ *del
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {name =~ *delay_rgmii_rx_ctl}'. [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:23]
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {name =~ *delay_rgmii_rxd*}'. [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:24]
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {name =~ *idelayctrl}'. [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:25]
-CRITICAL WARNING: [Common 17-69] Command failed: Illegal DRIVE value '24' for standard 'LVCMOS33'.  4, 8, 12, 16 [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:38]
-CRITICAL WARNING: [Common 17-69] Command failed: Illegal DRIVE value '24' for standard 'LVCMOS33'.  4, 8, 12, 16 [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:39]
-CRITICAL WARNING: [Common 17-69] Command failed: Illegal DRIVE value '24' for standard 'LVCMOS33'.  4, 8, 12, 16 [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:40]
-CRITICAL WARNING: [Common 17-69] Command failed: Illegal DRIVE value '24' for standard 'LVCMOS33'.  4, 8, 12, 16 [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:41]
-CRITICAL WARNING: [Common 17-69] Command failed: Illegal DRIVE value '24' for standard 'LVCMOS33'.  4, 8, 12, 16 [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc:42]
 Finished Parsing XDC File [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_level_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.srcs/constrs_1/new/styx_lwip_test.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_wrapper_propImpl.xdc].
@@ -123,28 +118,28 @@ Parsing XDC File [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/
 Finished Parsing XDC File [/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2902.383 ; gain = 0.000 ; free physical = 11596 ; free virtual = 17260
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2902.488 ; gain = 0.000 ; free physical = 10848 ; free virtual = 16432
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2902.527 ; gain = 0.121 ; free physical = 11596 ; free virtual = 17260
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2902.625 ; gain = 0.113 ; free physical = 10848 ; free virtual = 16433
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/user/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2902.766 ; gain = 563.121 ; free physical = 11579 ; free virtual = 17243
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1973.781; parent = 1560.148; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.098; parent = 2877.512; children = 2478.586
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.867 ; gain = 563.062 ; free physical = 10901 ; free virtual = 16486
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1895.059; parent = 1481.828; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.168; parent = 2877.629; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2902.766 ; gain = 563.121 ; free physical = 11579 ; free virtual = 17243
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1973.781; parent = 1560.148; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.219; parent = 2877.633; children = 2478.586
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.867 ; gain = 563.062 ; free physical = 10901 ; free virtual = 16485
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1895.652; parent = 1482.512; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.289; parent = 2877.750; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -439,14 +434,14 @@ Applied set_property KEEP_HIERARCHY = SOFT for top_level_i/proc_sys_reset_0. (co
 Applied set_property KEEP_HIERARCHY = SOFT for top_level_i/util_reduced_logic_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for top_level_i/gmii_to_rgmii_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2902.766 ; gain = 563.121 ; free physical = 11579 ; free virtual = 17243
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1973.781; parent = 1560.148; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.293; parent = 2877.707; children = 2478.586
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.867 ; gain = 563.062 ; free physical = 10902 ; free virtual = 16488
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1898.789; parent = 1485.650; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.363; parent = 2877.824; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2902.766 ; gain = 563.121 ; free physical = 11593 ; free virtual = 17258
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1973.781; parent = 1560.148; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.395; parent = 2877.809; children = 2478.586
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.867 ; gain = 563.062 ; free physical = 10902 ; free virtual = 16488
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1900.305; parent = 1487.166; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.465; parent = 2877.926; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -469,33 +464,33 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.766 ; gain = 563.121 ; free physical = 11608 ; free virtual = 17274
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1973.781; parent = 1560.148; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.895; parent = 2878.309; children = 2478.586
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2902.867 ; gain = 563.062 ; free physical = 10902 ; free virtual = 16489
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1916.352; parent = 1503.596; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5356.965; parent = 2878.426; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2924.691 ; gain = 585.047 ; free physical = 11477 ; free virtual = 17148
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.398; parent = 1703.852; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.277; parent = 2924.691; children = 2478.586
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2924.812 ; gain = 585.008 ; free physical = 10770 ; free virtual = 16356
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2112.531; parent = 1701.387; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.352; parent = 2924.812; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2924.828 ; gain = 585.184 ; free physical = 11477 ; free virtual = 17148
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2116.031; parent = 1704.514; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.414; parent = 2924.828; children = 2478.586
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2924.945 ; gain = 585.141 ; free physical = 10770 ; free virtual = 16356
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2113.148; parent = 1702.033; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.484; parent = 2924.945; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2924.934 ; gain = 585.289 ; free physical = 11461 ; free virtual = 17132
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.520; parent = 2924.934; children = 2478.586
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2925.051 ; gain = 585.246 ; free physical = 10750 ; free virtual = 16337
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2114.277; parent = 1703.193; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.590; parent = 2925.051; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -513,49 +508,49 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.055 ; gain = 585.410 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.641; parent = 2925.055; children = 2478.586
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.172 ; gain = 585.367 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.074; parent = 1703.990; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.711; parent = 2925.172; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.066 ; gain = 585.422 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.652; parent = 2925.066; children = 2478.586
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.184 ; gain = 585.379 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.137; parent = 1704.053; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.723; parent = 2925.184; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.094 ; gain = 585.449 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.680; parent = 2925.094; children = 2478.586
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.215 ; gain = 585.410 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.312; parent = 1704.229; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.754; parent = 2925.215; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.102 ; gain = 585.457 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.688; parent = 2925.102; children = 2478.586
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.223 ; gain = 585.418 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.371; parent = 1704.287; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.762; parent = 2925.223; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.102 ; gain = 585.457 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.688; parent = 2925.102; children = 2478.586
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.223 ; gain = 585.418 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.371; parent = 1704.287; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.762; parent = 2925.223; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.105 ; gain = 585.461 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.691; parent = 2925.105; children = 2478.586
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.227 ; gain = 585.422 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.402; parent = 1704.318; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.766; parent = 2925.227; children = 2478.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -583,30 +578,29 @@ Report Cell Usage:
 |6     |OBUF                           |     2|
 +------+-------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.137 ; gain = 585.492 ; free physical = 11460 ; free virtual = 17099
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2117.160; parent = 1705.674; children = 420.209
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.723; parent = 2925.137; children = 2478.586
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.258 ; gain = 585.453 ; free physical = 10750 ; free virtual = 16336
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2115.551; parent = 1704.467; children = 419.774
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5403.797; parent = 2925.258; children = 2478.539
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2925.168 ; gain = 494.000 ; free physical = 11460 ; free virtual = 17092
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2925.199 ; gain = 585.527 ; free physical = 11710 ; free virtual = 17356
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2925.289 ; gain = 494.020 ; free physical = 10750 ; free virtual = 16336
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2925.320 ; gain = 585.484 ; free physical = 10750 ; free virtual = 16336
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.199 ; gain = 0.000 ; free physical = 11750 ; free virtual = 17398
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.344 ; gain = 0.000 ; free physical = 10750 ; free virtual = 16337
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.199 ; gain = 0.000 ; free physical = 11740 ; free virtual = 17388
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2925.449 ; gain = 0.000 ; free physical = 10852 ; free virtual = 16442
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
 
 Synth Design complete, checksum: b03977b
 INFO: [Common 17-83] Releasing license: Synthesis
-42 Infos, 33 Warnings, 5 Critical Warnings and 0 Errors encountered.
+42 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 2925.199 ; gain = 970.605 ; free physical = 11866 ; free virtual = 17515
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 2925.449 ; gain = 971.629 ; free physical = 10990 ; free virtual = 16580
 INFO: [Common 17-1381] The checkpoint '/home/user/Desktop/Styx_airbornesonar/Styx_airbornesonar.runs/synth_1/top_level_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_level_wrapper_utilization_synth.rpt -pb top_level_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue May 20 17:23:38 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu May 22 23:38:49 2025...

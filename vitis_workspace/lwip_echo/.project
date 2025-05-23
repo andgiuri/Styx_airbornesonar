@@ -3,7 +3,7 @@
 	<name>lwip_echo</name>
 	<comment>Created by Vitis v2022.2</comment>
 	<projects>
-		<project>styx_lwip_test</project>
+		<project>styx_lwip</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

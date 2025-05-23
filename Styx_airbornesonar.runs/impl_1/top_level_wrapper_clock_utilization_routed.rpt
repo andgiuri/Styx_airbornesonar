@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-| Date         : Tue May 20 17:24:50 2025
-| Host         : 505c0296264a running 64-bit Ubuntu 22.04.5 LTS
+| Date         : Thu May 22 23:40:01 2025
+| Host         : fb39c16b5db7 running 64-bit Ubuntu 22.04.5 LTS
 | Command      : report_clock_utilization -file top_level_wrapper_clock_utilization_routed.rpt
 | Design       : top_level_wrapper
 | Device       : 7z020-clg484
@@ -25,10 +25,9 @@ Table of Contents
 9. Device Cell Placement Summary for Global Clock g3
 10. Device Cell Placement Summary for Global Clock g4
 11. Device Cell Placement Summary for Global Clock g5
-12. Clock Region Cell Placement per Global Clock: Region X0Y0
-13. Clock Region Cell Placement per Global Clock: Region X0Y1
-14. Clock Region Cell Placement per Global Clock: Region X0Y2
-15. Clock Region Cell Placement per Global Clock: Region X1Y2
+12. Clock Region Cell Placement per Global Clock: Region X1Y1
+13. Clock Region Cell Placement per Global Clock: Region X0Y2
+14. Clock Region Cell Placement per Global Clock: Region X1Y2
 
 1. Clock Primitive Utilization
 ------------------------------
@@ -55,8 +54,8 @@ Table of Contents
 | g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y18 | n/a          |                 2 |         207 |               0 |        5.000 | clk_fpga_1        | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/i_bufg_clk_in/O                                                                                                       | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |
 | g1        | src1      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y16 | n/a          |                 3 |          47 |               0 |        8.000 | gmii_clk_125m_out | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk/O                                                                                                                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |
 | g1        | src2      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y16 | n/a          |                 3 |          47 |               0 |        8.000 | gmii_clk_125m_out | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk/O                                                                                                                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |
-| g2        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y19 | n/a          |                 1 |          38 |               0 |       10.000 | clk_fpga_0        | top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O                                                                                                                   | top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             |
-| g3        | src4      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |                 3 |          13 |               0 |              |                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk/O | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
+| g2        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y20 | n/a          |                 1 |          38 |               0 |       10.000 | clk_fpga_0        | top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O                                                                                                                   | top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             |
+| g3        | src4      | BUFG/O          | None       | BUFGCTRL_X0Y19 | n/a          |                 3 |          13 |               0 |              |                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk/O | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
 | g4        | src5      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y17 | n/a          |                 1 |           1 |               0 |       40.000 | gmii_clk_2_5m_out | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk_25m_2_5m/O                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_clk_25m_or_2_5m                                                                                                                   |
 | g4        | src1      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y17 | n/a          |                 1 |           1 |               0 |       40.000 | gmii_clk_25m_out  | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk_25m_2_5m/O                                                                                                          | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_clk_25m_or_2_5m                                                                                                                   |
 | g5        | src6      | BUFR/O          | None       | BUFR_X1Y9      | X1Y2         |                 1 |           1 |               0 |      400.000 | gmii_clk_2_5m_out | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clk10_div_buf/O                                                                                                       | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/gmii_clk_2_5m_out                                                                                                     |
@@ -76,7 +75,7 @@ Table of Contents
 | src1      | g4        | MMCME2_ADV/CLKOUT1 | None       | MMCME2_ADV_X1Y2 | X1Y2         |           0 |               0 |              40.000 | gmii_clk_25m_out  | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/mmcm_adv_inst/CLKOUT1 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/gmii_clk_25m_out  |
 | src2      | g1        | MMCME2_ADV/CLKOUT0 | None       | MMCME2_ADV_X1Y2 | X1Y2         |           0 |               0 |               8.000 | gmii_clk_125m_out | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/mmcm_adv_inst/CLKOUT0 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/gmii_clk_125m_out |
 | src3      | g2        | PS7/FCLKCLK[0]     | PS7_X0Y0   | PS7_X0Y0        | X0Y2         |           1 |               0 |              10.000 | clk_fpga_0        | top_level_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]                                      | top_level_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]                            |
-| src4      | g3        | IBUF/O             | IOB_X0Y28  | IOB_X0Y28       | X0Y0         |           2 |               0 |                     |                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/rgmii_rxc_ibuf_i/O                     | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/rgmii_rxc_ibuf                     |
+| src4      | g3        | IBUF/O             | IOB_X1Y74  | IOB_X1Y74       | X1Y1         |           2 |               0 |                     |                   | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/rgmii_rxc_ibuf_i/O                     | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/rgmii_rxc_ibuf                     |
 | src5      | g4        | BUFR/O             | None       | BUFR_X1Y9       | X1Y2         |           1 |               0 |             400.000 | gmii_clk_2_5m_out | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clk10_div_buf/O       | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/gmii_clk_2_5m_out |
 | src6      | g5        | MMCME2_ADV/CLKOUT2 | None       | MMCME2_ADV_X1Y2 | X1Y2         |           1 |               0 |             100.000 | clk_10            | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/mmcm_adv_inst/CLKOUT2 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clk_10            |
 +-----------+-----------+--------------------+------------+-----------------+--------------+-------------+-----------------+---------------------+-------------------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
@@ -92,12 +91,12 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    5 |    12 |    0 |     4 |    0 |     2 |    1 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    5 |    50 |    6 |    50 |  278 |  2500 |  128 |  1000 |    0 |    60 |    0 |    30 |    0 |    60 |
+| X0Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  2500 |    0 |  1000 |    0 |    60 |    0 |    30 |    0 |    60 |
 | X1Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  3200 |    0 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
-| X0Y1              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |   16 |  1200 |   14 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  2600 |    0 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y1              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    5 |    12 |    0 |     4 |    0 |     2 |    1 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    5 |    50 |    6 |    50 |  277 |  2600 |   85 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 | X0Y2              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y2              |    1 |    12 |    1 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  2600 |    0 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X1Y2              |    3 |    12 |    1 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   17 |  2600 |    7 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * Global Clock column represents track count; while other columns represents cell counts
 
@@ -109,9 +108,9 @@ All Modules
 +----+----+----+
 |    | X0 | X1 |
 +----+----+----+
-| Y2 |  2 |  1 |
-| Y1 |  2 |  0 |
-| Y0 |  5 |  0 |
+| Y2 |  2 |  3 |
+| Y1 |  0 |  5 |
+| Y0 |  0 |  0 |
 +----+----+----+
 
 
@@ -129,13 +128,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+------+----+-----------------------+
-|    | X0   | X1 | HORIZONTAL PROG DELAY |
-+----+------+----+-----------------------+
-| Y2 |    0 |  1 |                     0 |
-| Y1 |    0 |  0 |                     - |
-| Y0 |  206 |  0 |                     0 |
-+----+------+----+-----------------------+
++----+----+------+-----------------------+
+|    | X0 | X1   | HORIZONTAL PROG DELAY |
++----+----+------+-----------------------+
+| Y2 |  0 |    1 |                     0 |
+| Y1 |  0 |  206 |                     0 |
+| Y0 |  0 |    0 |                     - |
++----+----+------+-----------------------+
 
 
 7. Device Cell Placement Summary for Global Clock g1
@@ -152,13 +151,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+-----------------------+
-|    | X0  | X1 | HORIZONTAL PROG DELAY |
-+----+-----+----+-----------------------+
-| Y2 |   1 |  0 |                     0 |
-| Y1 |  10 |  0 |                     0 |
-| Y0 |  36 |  0 |                     0 |
-+----+-----+----+-----------------------+
++----+----+-----+-----------------------+
+|    | X0 | X1  | HORIZONTAL PROG DELAY |
++----+----+-----+-----------------------+
+| Y2 |  1 |  10 |                     0 |
+| Y1 |  0 |  36 |                     0 |
+| Y0 |  0 |   0 |                     - |
++----+----+-----+-----------------------+
 
 
 8. Device Cell Placement Summary for Global Clock g2
@@ -175,13 +174,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+-----------------------+
-|    | X0  | X1 | HORIZONTAL PROG DELAY |
-+----+-----+----+-----------------------+
-| Y2 |   0 |  0 |                     - |
-| Y1 |   0 |  0 |                     - |
-| Y0 |  38 |  0 |                     0 |
-+----+-----+----+-----------------------+
++----+----+-----+-----------------------+
+|    | X0 | X1  | HORIZONTAL PROG DELAY |
++----+----+-----+-----------------------+
+| Y2 |  0 |   0 |                     - |
+| Y1 |  0 |  38 |                     0 |
+| Y0 |  0 |   0 |                     - |
++----+----+-----+-----------------------+
 
 
 9. Device Cell Placement Summary for Global Clock g3
@@ -201,9 +200,9 @@ All Modules
 +----+----+----+-----------------------+
 |    | X0 | X1 | HORIZONTAL PROG DELAY |
 +----+----+----+-----------------------+
-| Y2 |  1 |  0 |                     0 |
-| Y1 |  6 |  0 |                     0 |
-| Y0 |  6 |  0 |                     0 |
+| Y2 |  1 |  7 |                     0 |
+| Y1 |  0 |  5 |                     0 |
+| Y0 |  0 |  0 |                     - |
 +----+----+----+-----------------------+
 
 
@@ -253,7 +252,7 @@ All Modules
 +----+----+--------+-----------------------+
 
 
-12. Clock Region Cell Placement per Global Clock: Region X0Y0
+12. Clock Region Cell Placement per Global Clock: Region X1Y1
 -------------------------------------------------------------
 
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -262,28 +261,14 @@ All Modules
 | g0        | n/a   | BUFG/O          | None       |         206 |               0 | 205 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |
 | g1        | n/a   | BUFGCTRL/O      | None       |          36 |               0 |  30 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |
 | g2        | n/a   | BUFG/O          | None       |          38 |               0 |  37 |           1 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/processing_system7_0/inst/FCLK_CLK0                                                                                                                                             |
-| g3        | n/a   | BUFG/O          | None       |           6 |               0 |   6 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
+| g3        | n/a   | BUFG/O          | None       |           5 |               0 |   5 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 * Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
 ** Non-Clock Loads column represents cell count of non-clock pin loads
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
 
 
-13. Clock Region Cell Placement per Global Clock: Region X0Y1
--------------------------------------------------------------
-
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                                                                                                         |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| g1        | n/a   | BUFGCTRL/O      | None       |          10 |               0 | 10 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |
-| g3        | n/a   | BUFG/O          | None       |           6 |               0 |  6 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
-** Non-Clock Loads column represents cell count of non-clock pin loads
-*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
-
-
-14. Clock Region Cell Placement per Global Clock: Region X0Y2
+13. Clock Region Cell Placement per Global Clock: Region X0Y2
 -------------------------------------------------------------
 
 +-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -297,14 +282,16 @@ All Modules
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
 
 
-15. Clock Region Cell Placement per Global Clock: Region X1Y2
+14. Clock Region Cell Placement per Global Clock: Region X1Y2
 -------------------------------------------------------------
 
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                             |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |           1 |               0 |  0 |           0 |    0 |   0 |  0 |    1 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------+
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                                                                                                         |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |           1 |               0 |  0 |           0 |    0 |   0 |  0 |    1 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out                                                                                                             |
+| g1        | n/a   | BUFGCTRL/O      | None       |          10 |               0 | 10 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk                                                                                                                            |
+| g3        | n/a   | BUFG/O          | None       |           7 |               0 |  7 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0 |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 * Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
 ** Non-Clock Loads column represents cell count of non-clock pin loads
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
@@ -312,14 +299,14 @@ All Modules
 
 
 # Location of BUFG Primitives 
-set_property LOC BUFGCTRL_X0Y19 [get_cells top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG]
+set_property LOC BUFGCTRL_X0Y20 [get_cells top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG]
 set_property LOC BUFGCTRL_X0Y18 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/i_bufg_clk_in]
-set_property LOC BUFGCTRL_X0Y0 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk]
+set_property LOC BUFGCTRL_X0Y19 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk]
 set_property LOC BUFGCTRL_X0Y16 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk]
 set_property LOC BUFGCTRL_X0Y17 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk_25m_2_5m]
 
 # Location of BUFIO Primitives 
-set_property LOC BUFIO_X0Y3 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufio_rgmii_rx_clk]
+set_property LOC BUFIO_X1Y5 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufio_rgmii_rx_clk]
 
 # Location of BUFR Primitives 
 set_property LOC BUFR_X1Y9 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clk10_div_buf]
@@ -327,32 +314,32 @@ set_property LOC BUFR_X1Y9 [get_cells top_level_i/gmii_to_rgmii_0/U0/i_top_level
 # Location of IO Primitives which is load of clock spine
 
 # Location of clock ports
-set_property LOC IOB_X0Y28 [get_ports RGMII_0_rxc]
+set_property LOC IOB_X1Y74 [get_ports RGMII_0_rxc]
 
-# Clock net "top_level_i/processing_system7_0/inst/FCLK_CLK0" driven by instance "top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG" located at site "BUFGCTRL_X0Y19"
+# Clock net "top_level_i/processing_system7_0/inst/FCLK_CLK0" driven by instance "top_level_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG" located at site "BUFGCTRL_X0Y20"
 #startgroup
 create_pblock {CLKAG_top_level_i/processing_system7_0/inst/FCLK_CLK0}
 add_cells_to_pblock [get_pblocks  {CLKAG_top_level_i/processing_system7_0/inst/FCLK_CLK0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="top_level_i/processing_system7_0/inst/FCLK_CLK0"}]]]
-resize_pblock [get_pblocks {CLKAG_top_level_i/processing_system7_0/inst/FCLK_CLK0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+resize_pblock [get_pblocks {CLKAG_top_level_i/processing_system7_0/inst/FCLK_CLK0}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
 
 # Clock net "top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out" driven by instance "top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/i_bufg_clk_in" located at site "BUFGCTRL_X0Y18"
 #startgroup
 create_pblock {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out}
 add_cells_to_pblock [get_pblocks  {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/mmcm_adv_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out"}]]]
-resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_top_level_gmii_to_rgmii_0_0_clocking/clkin_out}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
 
-# Clock net "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0" driven by instance "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk" located at site "BUFGCTRL_X0Y0"
+# Clock net "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0" driven by instance "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk" located at site "BUFGCTRL_X0Y19"
 #startgroup
 create_pblock {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0}
 add_cells_to_pblock [get_pblocks  {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0"}]]]
-resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/top_level_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/gen_rgmii_rx_clk_zq.bufg_rgmii_rx_clk_0}] -add {CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
 #endgroup
 
 # Clock net "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk" driven by instance "top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk" located at site "BUFGCTRL_X0Y16"
 #startgroup
 create_pblock {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk}
 add_cells_to_pblock [get_pblocks  {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk"}]]]
-resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+resize_pblock [get_pblocks {CLKAG_top_level_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/gmii_tx_clk}] -add {CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
 #endgroup

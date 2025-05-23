@@ -95,9 +95,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="top_level.bd" FileRelPathName="ip/top_level_processing_system7_0_0/top_level_processing_system7_0_0.xci">
-          <Proxy FileSetName="top_level_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="top_level.bd" FileRelPathName="ip/top_level_gmii_to_rgmii_0_0/top_level_gmii_to_rgmii_0_0.xci">
           <Proxy FileSetName="top_level_gmii_to_rgmii_0_0"/>
         </CompFileExtendedInfo>
@@ -106,6 +103,9 @@
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="top_level.bd" FileRelPathName="ip/top_level_proc_sys_reset_0_0/top_level_proc_sys_reset_0_0.xci">
           <Proxy FileSetName="top_level_proc_sys_reset_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="top_level.bd" FileRelPathName="ip/top_level_processing_system7_0_0/top_level_processing_system7_0_0.xci">
+          <Proxy FileSetName="top_level_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/top_level/hdl/top_level_wrapper.v">
