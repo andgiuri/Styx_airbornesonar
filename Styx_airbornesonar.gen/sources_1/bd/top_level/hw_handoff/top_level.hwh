@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue May 13 18:44:33 2025" VIVADOVERSION="2022.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri May 23 01:13:16 2025" VIVADOVERSION="2022.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="numato.com:styx:part0:1.0" DEVICE="7z020" NAME="top_level" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
@@ -164,6 +164,16 @@
         <CONNECTION INSTANCE="util_reduced_logic_0" PORT="Res"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="O" NAME="UART_0_0_txd" SIGIS="undef" SIGNAME="processing_system7_0_UART0_TX">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="UART0_TX"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="UART_0_0_rxd" SIGIS="undef" SIGNAME="processing_system7_0_UART0_RX">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="UART0_RX"/>
+      </CONNECTIONS>
+    </PORT>
   </EXTERNALPORTS>
 
   <EXTERNALINTERFACES>
@@ -228,6 +238,12 @@
         <PORTMAP LOGICAL="TD" PHYSICAL="RGMII_0_td"/>
         <PORTMAP LOGICAL="TX_CTL" PHYSICAL="RGMII_0_tx_ctl"/>
         <PORTMAP LOGICAL="TXC" PHYSICAL="RGMII_0_txc"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+    <BUSINTERFACE BUSNAME="processing_system7_0_UART_0" NAME="UART_0_0" TYPE="INITIATOR">
+      <PORTMAPS>
+        <PORTMAP LOGICAL="TxD" PHYSICAL="UART_0_0_txd"/>
+        <PORTMAP LOGICAL="RxD" PHYSICAL="UART_0_0_rxd"/>
       </PORTMAPS>
     </BUSINTERFACE>
   </EXTERNALINTERFACES>
@@ -1504,8 +1520,16 @@
             <CONNECTION INSTANCE="gmii_to_rgmii_0" PORT="gmii_rxd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="UART0_TX" SIGIS="undef"/>
-        <PORT DIR="I" NAME="UART0_RX" SIGIS="undef"/>
+        <PORT DIR="O" NAME="UART0_TX" SIGIS="undef" SIGNAME="processing_system7_0_UART0_TX">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="top_level_imp" PORT="UART_0_0_txd"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="UART0_RX" SIGIS="undef" SIGNAME="processing_system7_0_UART0_RX">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="top_level_imp" PORT="UART_0_0_rxd"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="FCLK_CLK0" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="slowest_sync_clk"/>
@@ -1695,7 +1719,7 @@
             <PORTMAP LOGICAL="PS_PORB" PHYSICAL="PS_PORB"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="__NOC__" NAME="UART_0" TYPE="INITIATOR" VLNV="xilinx.com:interface:uart:1.0">
+        <BUSINTERFACE BUSNAME="processing_system7_0_UART_0" NAME="UART_0" TYPE="INITIATOR" VLNV="xilinx.com:interface:uart:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="TxD" PHYSICAL="UART0_TX"/>
             <PORTMAP LOGICAL="RxD" PHYSICAL="UART0_RX"/>
@@ -1717,7 +1741,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="proc_sys_reset_0_interconnect_aresetn">
+        <PORT DIR="I" LEFT="0" NAME="Op1" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="undef" SIGNAME="proc_sys_reset_0_interconnect_aresetn">
           <CONNECTIONS>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="interconnect_aresetn"/>
           </CONNECTIONS>

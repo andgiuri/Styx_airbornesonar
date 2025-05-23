@@ -1,8 +1,8 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-//Date        : Tue May 13 18:44:23 2025
-//Host        : 023bdefaf062 running 64-bit Ubuntu 22.04.5 LTS
+//Date        : Fri May 23 01:13:15 2025
+//Host        : 8a62db6d82d0 running 64-bit Ubuntu 22.04.5 LTS
 //Command     : generate_target top_level.bd
 //Design      : top_level
 //Purpose     : IP block netlist
@@ -42,7 +42,9 @@ module top_level
     RGMII_0_td,
     RGMII_0_tx_ctl,
     RGMII_0_txc,
-    Res_0);
+    Res_0,
+    UART_0_0_rxd,
+    UART_0_0_txd);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) inout [14:0]DDR_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR BA" *) inout [2:0]DDR_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CAS_N" *) inout DDR_cas_n;
@@ -75,6 +77,8 @@ module top_level
   (* X_INTERFACE_INFO = "xilinx.com:interface:rgmii:1.0 RGMII_0 TX_CTL" *) output RGMII_0_tx_ctl;
   (* X_INTERFACE_INFO = "xilinx.com:interface:rgmii:1.0 RGMII_0 TXC" *) output RGMII_0_txc;
   output Res_0;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART_0_0 RxD" *) input UART_0_0_rxd;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART_0_0 TxD" *) output UART_0_0_txd;
 
   wire gmii_to_rgmii_0_MDIO_PHY_MDC;
   wire gmii_to_rgmii_0_MDIO_PHY_MDIO_I;
@@ -126,6 +130,8 @@ module top_level
   wire processing_system7_0_MDIO_ETHERNET_0_MDIO_I;
   wire processing_system7_0_MDIO_ETHERNET_0_MDIO_O;
   wire processing_system7_0_MDIO_ETHERNET_0_MDIO_T;
+  wire processing_system7_0_UART_0_RxD;
+  wire processing_system7_0_UART_0_TxD;
   wire util_reduced_logic_0_Res;
 
   assign MDIO_PHY_0_mdc = gmii_to_rgmii_0_MDIO_PHY_MDC;
@@ -135,10 +141,12 @@ module top_level
   assign RGMII_0_tx_ctl = gmii_to_rgmii_0_RGMII_TX_CTL;
   assign RGMII_0_txc = gmii_to_rgmii_0_RGMII_TXC;
   assign Res_0 = util_reduced_logic_0_Res;
+  assign UART_0_0_txd = processing_system7_0_UART_0_TxD;
   assign gmii_to_rgmii_0_MDIO_PHY_MDIO_I = MDIO_PHY_0_mdio_i;
   assign gmii_to_rgmii_0_RGMII_RD = RGMII_0_rd[3:0];
   assign gmii_to_rgmii_0_RGMII_RXC = RGMII_0_rxc;
   assign gmii_to_rgmii_0_RGMII_RX_CTL = RGMII_0_rx_ctl;
+  assign processing_system7_0_UART_0_RxD = UART_0_0_rxd;
   top_level_gmii_to_rgmii_0_0 gmii_to_rgmii_0
        (.clkin(processing_system7_0_FCLK_CLK1),
         .gmii_col(processing_system7_0_GMII_ETHERNET_0_COL),
@@ -215,7 +223,8 @@ module top_level
         .PS_CLK(FIXED_IO_ps_clk),
         .PS_PORB(FIXED_IO_ps_porb),
         .PS_SRSTB(FIXED_IO_ps_srstb),
-        .UART0_RX(1'b1));
+        .UART0_RX(processing_system7_0_UART_0_RxD),
+        .UART0_TX(processing_system7_0_UART_0_TxD));
   top_level_util_reduced_logic_0_0 util_reduced_logic_0
        (.Op1(proc_sys_reset_0_interconnect_aresetn),
         .Res(util_reduced_logic_0_Res));

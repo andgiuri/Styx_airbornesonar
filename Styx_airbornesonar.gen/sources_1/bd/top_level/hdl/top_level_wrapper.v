@@ -1,8 +1,8 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-//Date        : Tue May 13 18:44:23 2025
-//Host        : 023bdefaf062 running 64-bit Ubuntu 22.04.5 LTS
+//Date        : Fri May 23 01:13:15 2025
+//Host        : 8a62db6d82d0 running 64-bit Ubuntu 22.04.5 LTS
 //Command     : generate_target top_level_wrapper.bd
 //Design      : top_level_wrapper
 //Purpose     : IP block netlist
@@ -39,7 +39,9 @@ module top_level_wrapper
     RGMII_0_td,
     RGMII_0_tx_ctl,
     RGMII_0_txc,
-    Res_0);
+    Res_0,
+    UART_0_0_rxd,
+    UART_0_0_txd);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -70,6 +72,8 @@ module top_level_wrapper
   output RGMII_0_tx_ctl;
   output RGMII_0_txc;
   output Res_0;
+  input UART_0_0_rxd;
+  output UART_0_0_txd;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -104,6 +108,8 @@ module top_level_wrapper
   wire RGMII_0_tx_ctl;
   wire RGMII_0_txc;
   wire Res_0;
+  wire UART_0_0_rxd;
+  wire UART_0_0_txd;
 
   IOBUF MDIO_PHY_0_mdio_iobuf
        (.I(MDIO_PHY_0_mdio_o),
@@ -142,5 +148,7 @@ module top_level_wrapper
         .RGMII_0_td(RGMII_0_td),
         .RGMII_0_tx_ctl(RGMII_0_tx_ctl),
         .RGMII_0_txc(RGMII_0_txc),
-        .Res_0(Res_0));
+        .Res_0(Res_0),
+        .UART_0_0_rxd(UART_0_0_rxd),
+        .UART_0_0_txd(UART_0_0_txd));
 endmodule

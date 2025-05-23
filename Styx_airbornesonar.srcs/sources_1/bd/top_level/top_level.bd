@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xFDA60677A3810BBB",
+      "boundary_crc": "0xEE83FE9A3808D2BE",
       "device": "xc7z020clg484-1",
       "gen_directory": "../../../../Styx_airbornesonar.gen/sources_1/bd/top_level",
       "name": "top_level",
@@ -246,6 +246,21 @@
           "TXC": {
             "physical_name": "RGMII_0_txc",
             "direction": "O"
+          }
+        }
+      },
+      "UART_0_0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:uart:1.0",
+        "vlnv": "xilinx.com:interface:uart_rtl:1.0",
+        "port_maps": {
+          "TxD": {
+            "physical_name": "UART_0_0_txd",
+            "direction": "O"
+          },
+          "RxD": {
+            "physical_name": "UART_0_0_rxd",
+            "direction": "I"
           }
         }
       }
@@ -665,6 +680,12 @@
         "interface_ports": [
           "gmii_to_rgmii_0/MDIO_GEM",
           "processing_system7_0/MDIO_ETHERNET_0"
+        ]
+      },
+      "processing_system7_0_UART_0": {
+        "interface_ports": [
+          "UART_0_0",
+          "processing_system7_0/UART_0"
         ]
       }
     },

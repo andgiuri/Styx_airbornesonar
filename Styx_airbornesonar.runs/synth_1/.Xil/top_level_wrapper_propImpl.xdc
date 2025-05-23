@@ -57,3 +57,7 @@ set_property src_info {type:XDC file:1 line:59 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN K20 [get_ports RGMII_0_tx_ctl]
 set_property src_info {type:XDC file:1 line:60 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K19 [get_ports RGMII_0_txc]
+set_property src_info {type:XDC file:1 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T22 [get_ports UART_0_0_rxd]
+set_property src_info {type:XDC file:1 line:64 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T21 [get_ports UART_0_0_txd]
